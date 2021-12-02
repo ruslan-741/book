@@ -1,0 +1,16 @@
+.app {
+  --bg-color: rgb(255, 255, 255);
+  --text-color: #000;
+
+  &--theme-dark {
+    --bg-color: rgb(31, 30, 30);
+    --text-color: #fff;
+  }
+}
+
+.app {
+  font-family: 'Montserrat', sans-serif;
+  min-height: 100vh;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
